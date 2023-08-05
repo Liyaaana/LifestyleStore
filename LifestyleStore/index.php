@@ -4,8 +4,8 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="shortcut icon" href="img/lifestyleStore.png" />
-        <title>Lifestyle Store</title>
+        <link rel="shortcut icon" href="img/Campentre.png" />
+        <title>Campentre</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- latest compiled and minified CSS -->
@@ -26,8 +26,7 @@ session_start();
                <div class="container">
                    <center>
                    <div id="bannerContent">
-                       <h1>We sell lifestyle.</h1>
-                       <p>Flat 40% OFF on all premium brands.</p>
+                       <h1>We sell campus products.</h1>
                        <a href="products.php" class="btn btn-danger">Shop Now</a>
                    </div>
                    </center>
@@ -38,12 +37,11 @@ session_start();
                    <div class="col-xs-4">
                        <div  class="thumbnail">
                            <a href="products.php">
-                                <img src="img/camera.jpg" alt="Camera">
+                                <img src="img/cake 1kg.jpg" alt="cake 1kg">
                            </a>
                            <center>
                                 <div class="caption">
-                                        <p id="autoResize">Cameras</p>
-                                        <p>Choose among the best available in the world.</p>
+                                        <p id="autoResize">cake 1kg</p>
                                 </div>
                            </center>
                        </div>
@@ -51,12 +49,11 @@ session_start();
                    <div class="col-xs-4">
                        <div class="thumbnail">
                            <a href="products.php">
-                               <img src="img/watch.jpg" alt="Watch">
+                               <img src="img/cookies.jpg" alt="cookies">
                            </a>
                            <center>
                                 <div class="caption">
-                                    <p id="autoResize">Watches</p>
-                                    <p>Original watches from the best brands.</p>
+                                    <p id="autoResize">cookies</p>
                                 </div>
                            </center>
                        </div>
@@ -64,12 +61,11 @@ session_start();
                    <div class="col-xs-4">
                        <div class="thumbnail">
                            <a href="products.php">
-                               <img src="img/shirt.jpg" alt="Shirt">
+                               <img src="img/painting.jpg" alt="painting">
                            </a>
                            <center>
                                <div class="caption">
-                                   <p id="autoResize">Shirts</p>
-                                   <p>Our exquisite collection of shirts.</p>
+                                   <p id="autoResize">painting</p>
                                </div>
                            </center>
                        </div>
@@ -80,8 +76,7 @@ session_start();
            <footer class="footer"> 
                <div class="container">
                <center>
-                   <p>Copyright &copy Lifestyle Store. All Rights Reserved. | Contact Us: +91 90000 00000</p>
-                   <p>This website is developed by Sajal Agrawal</p>
+                  
                </center>
                </div>
            </footer>
