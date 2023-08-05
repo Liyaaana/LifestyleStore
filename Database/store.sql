@@ -37,18 +37,13 @@ CREATE TABLE `items` (
 --
 
 INSERT INTO `items` (`id`, `name`, `price`) VALUES
-(1, 'Cannon EOS', 36000),
-(2, 'Sony DSLR', 40000),
-(3, 'Sony DSLR', 50000),
-(4, 'Olympus DSLR', 80000),
-(5, 'Titan Model #301', 13000),
-(6, 'Titan Model #201', 3000),
-(7, 'HMT Milan', 8000),
-(8, 'Favre Lueba #111', 18000),
-(9, 'Raymond', 1500),
-(10, 'Charles', 1000),
-(11, 'HXR', 900),
-(12, 'PINK', 1200);
+(1, 'cake 1kg', 360),
+(2, 'cake 2kg', 700),
+(3, 'decor items', 500),
+(4, 'painting', 800),
+(5,'giftcard', 500),
+(6,'wall decor', 300),
+(7, 'cookies', 100);
 
 -- --------------------------------------------------------
 
@@ -71,7 +66,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `contact`, `city`, `address`) VALUES
-(1, 'Sajal', 'sajal.agrawal1997@gmail.com', '57f231b1ec41dc6641270cb09a56f897', '8899889988', 'Indore', '100 palace colony, Indore'),
+(1, 'Sajal', 'sajal1997@gmail.com', '57f231b1ec41dc6641270cb09a56f897', '8899889988', 'kerala', '100 palace colony, kerala'),
 (2, 'Ram', 'ram1234@xyz.com', '57f231b1ec41dc6641270cb09a56f897', '8899889989', 'Pune', '100 palace colony, Pune'),
 (3, 'Shyam', 'shyam@xyz.com', '57f231b1ec41dc6641270cb09a56f897', '8899889990', 'Bangalore', '100 palace colony, Bangalore');
 
